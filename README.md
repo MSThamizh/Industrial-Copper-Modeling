@@ -19,12 +19,34 @@ The goal of this project is to develop a **Streamlit application** that enables 
 4. **Model Building**: Train regression and classification models to predict sales outcomes.
 5. **Streamlit Web Application**: Develop an interactive web app that allows users to enter feature values and receive sales predictions.
 
+
 ## Features
 
-- **MongoDB Integration**: Real-time data retrieval from MongoDB Atlas.
-- **Predictive Modeling**: Use of regression for sales price prediction and classification for sales status.
-- **Interactive Input Fields**: Users can enter feature values to get predictions.
-- **Prediction Visualization**: Display model predictions based on user input.
+- **Data Understanding and Cleaning**:
+  - Identifies variable types and handles null and erroneous values, converting data types.
+
+- **Data Preprocessing**:
+  - Handles missing values with appropriate statistical methods (mean/median/mode).
+  - Manages outliers using IQR or Isolation Forest methods from `sklearn`.
+  - Corrects skewness in continuous variables using transformations like log or Box-Cox transformations, particularly for the target variable to improve regression results.
+  - Encodes categorical variables with techniques such as one-hot, label, or ordinal encoding.
+
+- **Exploratory Data Analysis (EDA)**:
+  - Visualizes data distributions, outliers, and skewness using Seaborn plots, including boxplots, distplots, and violin plots, both before and after skewness treatment.
+
+- **Feature Engineering**:
+  - Creates new features and applies transformations to enhance model input.
+  - Identifies and removes highly correlated features using Seaborn’s heatmap.
+
+- **Model Building and Evaluation**:
+  - Trains both classification and regression models using cross-validation for accuracy, precision, recall, F1 score, and AUC metrics.
+  - Performs hyperparameter tuning via grid search and cross-validation for optimal model performance.
+
+- **Streamlit Web Application**:
+  - Provides an interactive application with a **Task Input** field to choose between Regression or Classification tasks.
+  - Allows users to enter feature values for prediction, except for `Selling_Price` in regression and `Status` in classification.
+  - Replicates feature engineering and transformation steps applied during training, delivering real-time predictions through the app interface.
+
 
 ## Technologies Used
 
