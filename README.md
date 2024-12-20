@@ -6,18 +6,16 @@ This project aims to analyze and model sales data in the copper industry, utiliz
 
 The goal of this project is to develop a **Streamlit application** that enables users to explore copper sales predictions effectively. Key features include:
 
-- **Data Retrieval**: Manage and retrieve sales data from MongoDB Atlas.
 - **Data Cleaning**: Handle missing values, remove duplicates, and convert data types for analysis.
 - **Predictive Modeling**: Build regression and classification models to predict sales prices and statuses (WON or LOST).
 - **Prediction Visualization**: Allow users to visualize model predictions based on input features.
 
 ## Workflow
 
-1. **Data Retrieval from MongoDB**: Fetch sales data from MongoDB Atlas, including relevant features for analysis.
-2. **Data Cleaning and Preparation**: Clean and preprocess the data to ensure it's ready for modeling.
-3. **Feature Engineering**: Apply transformations and scaling to optimize model performance.
-4. **Model Building**: Train regression and classification models to predict sales outcomes.
-5. **Streamlit Web Application**: Develop an interactive web app that allows users to enter feature values and receive sales predictions.
+1. **Data Cleaning and Preparation**: Clean and preprocess the data to ensure it's ready for modeling.
+2. **Feature Engineering**: Apply transformations and scaling to optimize model performance.
+3. **Model Building**: Train regression and classification models to predict sales outcomes.
+4. **Streamlit Web Application**: Develop an interactive web app that allows users to enter feature values and receive sales predictions.
 
 
 ## Features
