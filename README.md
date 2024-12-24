@@ -49,7 +49,6 @@ The goal of this project is to develop a **Streamlit application** that enables 
 ## Technologies Used
 
 - **Python**: Main programming language for data processing and application development.
-- **MongoDB Atlas**: NoSQL database for storing sales data.
 - **Streamlit**: Framework for building the interactive web application.
 - **Scikit-learn**: For machine learning model development.
 - **Pandas/Numpy**: For data manipulation and analysis.
@@ -57,7 +56,6 @@ The goal of this project is to develop a **Streamlit application** that enables 
 ## References
 
 - **Python**: [https://docs.python.org/3/](https://docs.python.org/3/)
-- **MongoDB Documentation**: [https://www.mongodb.com/](https://www.mongodb.com/)
 - **Streamlit Documentation**: [https://docs.streamlit.io/library/api-reference](https://docs.streamlit.io/library/api-reference)
 - **Scikit-learn Documentation**: [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
 - **Dataset**: [Data](https://docs.google.com/spreadsheets/d/18eR6DBe5TMWU9FnIewaGtsepDbV4BOyr/edit?usp=sharing&ouid=104970222914596366601&rtpof=true&sd=true)
